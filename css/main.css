@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: url("../catBackground.jpg");
+    background-position: center;
+}
+
+
+.sign-up-form{
+    width: 300px;
+    box-shadow: 0 0 7px 0 rgba(0,0,0,0.7);
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+}
+
+.sign-up-form h1 {
+    color: #1c8adb;
+    margin-bottom:30px;
+
+}
+
+.input-box input{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}
+
+
+
+.name-error input{
+    border: 1px solid rgb(248, 3, 3);
+}
+
+.name-error span{
+    width: 80%;
+    height: 35px;
+    margin: 3px 10%;
+    color: red;
+}
+
+.signup-btn{
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin:10px 0;
+    border:none;
+    cursor:pointer;
+    background-color: #1c8adb;
+}
+
+hr{
+    
+    width: 80%;
+    margin:auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.red{
+    color: red;
+}
+
+.nored{
+    color: black;
+}
+
+
+
